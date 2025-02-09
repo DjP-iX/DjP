@@ -78,16 +78,16 @@ enableEmoji = true
     [params.meta]
         keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
 
-    [[params.contacts]]
-        label = "phone"
-        value = "+49 1111 555555"
-        url = "tel:+49 1111 555555"
-        icon = "fa fa-phone"
+    # [[params.contacts]]
+       # label = "phone"
+       # value = "+49 1111 555555"
+       # url = "tel:+49 1111 555555"
+       # icon = "fa fa-phone"
 
     [[params.contacts]]
         label = "email"
-        value = "mail@janedoe.com"
-        url = "mailto:mail@janedoe.com"
+        value = "danpizappi@gmail.com"
+        url = "mailto:danpizappi@gmail.com"
         icon = "fa fa-envelope"
 
     [[params.contacts]]
@@ -96,9 +96,14 @@ enableEmoji = true
         url = "https://github.com/DjP-iX"
         icon = "fa-brands fa-github"
 
-    # Add additional contacts here!
-    # [[params.contacts]]
-    #     label = ""
-    #     value = ""
-    #     url = ""
-    #     icon = ""
+    [[params.contacts]]
+        label = "Bluesky"
+        value = "enskyment.bsky.social"
+        url = "https://bsky.app/profile/enskyment.bsky.social"
+        icon = "fa-brands fa-bluesky"
+
+    [[params.contacts]]
+        label = "LinkedIn"
+        value = "linkedin.com/in/daniel-pizappi/"
+        url = "https://www.linkedin.com/in/daniel-pizappi/"
+        icon = "fa-brands fa-linkedin-in"

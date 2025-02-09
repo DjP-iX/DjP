@@ -1,0 +1,26 @@
+:root {
+  /* See variables.scss for more variables */
+
+  --section-light-text-color: #3a4145 !important;
+  --section-light-bg-color: white !important;
+  --section-dark-bg-color: #745E96 !important;
+  --btn-site-menu: #745E96 !important; /* Added missing variable */
+
+  /* Define list element for unnumbered lists */
+  /* fa-asterisk is the default icon if this variable definition is missing completely */
+  --ul-li-icon: fa-dashcube;  /* This sets fa-dashcube as the list icon */
+  --ul-li-icon: ;             /* This sets the default HTML list icon */
+}
+
+a.btn.site-menu {
+  background-color: var(--btn-site-menu) !important;
+  color: white !important;
+}
+#header-arrow i {
+  color: var(--btn-site-menu) !important;
+}
+.fn-item:hover,
+.fn-item.active {
+    color: var(--btn-site-menu) !important;
+}
+
