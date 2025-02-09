@@ -26,7 +26,13 @@
     {{ end }}
 
     {{ with .Site.Params.copyright_owner }}
-      <section class="copyright">© {{ now.Year }} {{ . }}</section>
+      <section class="copyright">
+        © {{ now.Year }} {{ . }} |
+        <i class="fa-brands fa-creative-commons"></i>
+        <i class="fa-brands fa-creative-commons-by"></i>
+        <i class="fa-brands fa-creative-commons-nc"></i>
+        &nbsp;<strong><a href="/legal">CC BY-NC 4.0</a></strong>
+      </section>
     {{ end }}
 
     {{ if ne .Site.Params.hidedesignbyline true }}

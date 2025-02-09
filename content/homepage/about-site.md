@@ -1,7 +1,7 @@
 ---
-title: "Credits"
+title: "About this Site"
 weight: 99
-header_menu: true
+header_menu: false
 ---
 In this section we give credit to authors of resources used on this demo page.
 

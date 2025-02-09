@@ -1,10 +1,12 @@
+/* General styling */
 :root {
   /* See variables.scss for more variables */
 
   --section-light-text-color: #3a4145 !important;
   --section-light-bg-color: white !important;
   --section-dark-bg-color: #745E96 !important;
-  --btn-site-menu: #745E96 !important; /* Added missing variable */
+  --btn-site-menu: #745E96 !important;
+  --green-text-darker: #71845F !important;
 
   /* Define list element for unnumbered lists */
   /* fa-asterisk is the default icon if this variable definition is missing completely */
@@ -12,6 +14,7 @@
   --ul-li-icon: ;             /* This sets the default HTML list icon */
 }
 
+/* Begin styling for menu buttons and nav menu */
 a.btn.site-menu {
   background-color: var(--btn-site-menu) !important;
   color: white !important;
@@ -19,8 +22,55 @@ a.btn.site-menu {
 #header-arrow i {
   color: var(--btn-site-menu) !important;
 }
+.fn-item,
+.blog-title,
+.blog-description {
+  color: var(--green-text-darker) !important;
+}
 .fn-item:hover,
 .fn-item.active {
     color: var(--btn-site-menu) !important;
 }
+/* End syling for menu buttons and nav menu */
 
+/* Begin quote styling */
+/* Quote container */
+.quote-container {
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.05); /* Soft overlay effect */
+  border-radius: 5px;
+}
+
+/* Vertical line */
+.quote-line {
+  width: 4px;
+  height: 100%;
+  background-color: #B5C99A; /* Pale Moss Green */
+  margin-right: 15px;
+  border-radius: 2px;
+}
+
+/* Quote text */
+.quote {
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #B5C99A;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* Quote attribution */
+.quote-attribution {
+  display: block;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #B5C99A;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+/* End quote styling */

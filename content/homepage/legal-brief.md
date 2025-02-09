@@ -3,14 +3,14 @@ title: "Brief Legal Information"
 weight: 98
 header_menu_title: "Legal"
 navigation_menu_title: "Legal stuff"
-header_menu: true
+header_menu: false
 detailed_page_path: /legal/
 detailed_page_homepage_content: true
 ---
-The file **legal-brief.md** creates an internal link on the cover page without the leading icon.
+The material on this website is for informational and demonstration purposes only. This use constitutes a fair use of any copyrighted material, as provided for in Section 107 of the US Copyright Act.
 
-If the parameter `detailed_page_homepage_content` is set to false neither this section nor the navigation menu entry will be shown (but the link on the cover page will be).
+{{< cc-license >}}
 
-If `detailed_page_homepage_content` is set to true or is missing at all, the link, navigation menu and the content will be rendered. In that case this section might contain less or just summarized information compared to the single page referenced by the parameter `detailed_page_path`.
+Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution-NonCommercial 4.0 International license.
 
-Want to see more about the details? See [dedicated page](legal) with more details or hit the button 'Legal' on the cover page.
+See the [dedicated page](legal) for additional details.

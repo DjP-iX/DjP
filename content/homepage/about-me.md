@@ -4,18 +4,16 @@ weight: 3
 header_menu: true
 ---
 
-<!-- 
-Neither embedded figure shortcode, nor Markdown hook were able to render image from asset. 
-You would have to .Resouces.GetMatch via custom shortcode.
-![Jane Doe](/images/asset-happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg) 
--->
-![Jane Doe](/images/static-happy-ethnic-woman-sitting-at-table-with-laptop-3769021.jpg)
-See DE language for more examples of image management. There are multiple approaches.
+![Dan Pizappi](/images/headshot-bw.jpg)
 
-##### Professional Experience
+Dan Pizappi is a Technical Documentation Engineer at iXsystems, the open storage company behind TrueNAS.
+His responsibilities include both hardware and software documentation, front-end web development, and managing a docs-as-code toolchain using Git, static site generation, and technologies such as Markdown, HTML, CSS, and JavaScript.
+He is also experienced in project management and Agile methodologies.
 
-A lot, but let us get into the details with some lorem ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat lectus et magna placerat tincidunt. Nullam sit amet lectus vitae elit mollis rhoncus non eget lorem. Ut tempor sed dui quis volutpat.
+Dan holds a PhD in English from the University of Tennessee, Knoxville, and has ample experience in research, analysis, writing, and instructional design.
+He has contributed to various academic and literary projects, including planning more than a dozen conferences, serving as Managing Editor for *Grist: A Journal of the Literary Arts* and as a Lecturer in the University of Tennessee English Department.
+Dan is also a past president of the Elizabeth Madox Roberts Society, a small literary studies NPO, where he continues to serve on the board.
 
-----
-
-In ultrices, est at lobortis pretium, magna quam mollis neque, id viverra odio est sit amet lorem. Mauris efficitur nunc vel lectus porttitor, sit amet sodales quam eleifend. Duis et felis ut mauris dignissim efficitur. Aliquam non sem eros. Integer elit ante, bibendum id hendrerit vitae, vestibulum eget risus. Nunc efficitur nisl in iaculis vestibulum.
+In addition to his technical and academic background, Dan channels his creativity into writing, working in both poetry and fiction.
+His work has appeared in publications including *Still: the Journal*, *Anti-Heroin Chic*, *The Mantle*, *Nixes Mate Review*, and *Dark Marrow*.
+In his free time, Dan enjoys reading, making music, cooking, and trying to garden.

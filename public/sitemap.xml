@@ -4,10 +4,16 @@
   <url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/academic-portfolio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/creative-writing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/professional-portfolio/</loc>
+  </url><url>
     <loc>http://localhost:1313/license/</loc>
   </url><url>
-    <loc>http://localhost:1313/services/</loc>
-  </url><url>
     <loc>http://localhost:1313/legal/</loc>
+  </url><url>
+    <loc>http://localhost:1313/services/</loc>
   </url>
 </urlset>

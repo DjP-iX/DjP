@@ -1,0 +1,9 @@
+<blockquote class="quote-container">
+  <div class="quote-line"></div>
+  <div class="quote-content">
+      <p class="quote">{{ .Inner }}</p>
+      {{ with .Get "author" }}
+          <span class="quote-attribution">— {{ . }}</span>
+      {{ end }}
+  </div>
+</blockquote>
