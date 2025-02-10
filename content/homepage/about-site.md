@@ -3,9 +3,9 @@ title: "About this Site"
 weight: 99
 header_menu: false
 ---
-In this section we give credit to authors of resources used on this demo page.
 
-- {{<extlink text="Chef-hat icons created by Cuputo - Flaticon" href="https://www.flaticon.com/free-icons/chef-hat" icon="fa fa-external-link">}}
-- {{<extlink text="sprinkle-of-rock-salt-on-sliced-vegetables-3209239 - Pexels" href="https://www.pexels.com/video/sprinkle-of-rock-salt-on-sliced-vegetables-3209239/" icon="fa fa-external-link">}}
-- {{<extlink text="Earth icon - Freepik" href="https://www.freepik.com/icon/earth_2072130" icon="fa fa-external-link">}}
-- {{<extlink text="happy-ethnic-woman - Pexels" href="https://www.pexels.com/photo/happy-ethnic-woman-sitting-at-table-with-laptop-3769021/" icon="fa fa-external-link">}}
+This website was created using the [Hugo](https://gohugo.io/) static site generator and is hosted on [GitHub Pages](https://pages.github.com/).
+
+The custom theme is based on [Hugo Scroll](https://themes.gohugo.io/themes/hugo-scroll/) originally by [Jan Raasch](https://www.janraasch.com/) and [Zdenek Kedaj](https://github.com/zjedi).
+
+Header image from [Noah Baslé](https://unsplash.com/photos/purple-lavender-field-overlooking-mountains-during-daytime-Txjvtscb6Fo) on [Unsplash](https://unsplash.com/).
