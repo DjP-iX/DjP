@@ -1,0 +1,23 @@
+# Hugo build files
+/public/
+
+# Hugo cache directory
+/resources/
+
+# Hugo config file backup
+config.toml.bak
+
+# IDE and editor specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.swp
+*.swo
