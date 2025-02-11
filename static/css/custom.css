@@ -81,20 +81,12 @@ a.btn.site-menu {
   border-radius: 10px;
 }
 
-/* Vertical line */
-.quote-line {
-  width: 4px;
-  height: 100%;
-  background-color: #B5C99A; /* Pale Moss Green */
-  margin-right: 15px;
-  border-radius: 2px;
-}
-
 /* Quote text */
 .quote {
   font-style: italic;
   font-size: 1.5rem;
   color: #B5C99A;
+  padding-left: 1em;
   letter-spacing: 0.5px;
   margin: 0;
 }
