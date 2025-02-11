@@ -35,10 +35,6 @@
     --single-page-text-color: var(--section-light-text-color);
     --single-page-bg-color: var(--section-light-bg-color);
 
-    /* === Footer === */
-    --footer-color-background: #22343a;
-    --footer-color: #bbc7cc;
-
     /* === Lists === */
     /* define list element for unnumbered lists, leave empty for default list element */
     --ul-li-icon: fa-asterisk;
@@ -48,6 +44,7 @@
   /* fa-asterisk is the default icon if this variable definition is missing completely */
   --ul-li-icon: fa-dashcube;  /* This sets fa-dashcube as the list icon */
   --ul-li-icon: ;             /* This sets the default HTML list icon */
+  
 }
 
 /* Begin styling for menu buttons and nav menu */
@@ -59,7 +56,7 @@ a.btn.site-menu {
   color: var(--btn-site-menu) !important;
 }
 .fn-item {
-  color: var(--section-dark-bg-color) !important;
+  color: #B5C99A !important;
 }
 
 .fn-item:hover,
@@ -110,4 +107,125 @@ a.btn.site-menu {
   padding: 20px;
   text-align: center;
 }
+footer a {
+  color: #B5C99A !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: var(--highlight) !important;
+  text-decoration: underline;
+}
 /* End footer styling */
+
+/* Start accordion styling */
+.accordion {
+  border-radius: 10px;
+  border-color: var(--section-light-text-color);
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--section-dark-bg-color);
+  opacity: 90%;
+  color: var(--section-light-bg-color);
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: 1px solid var(--section-light-text-color);
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-header.active {
+  border-bottom: none;
+}
+
+.accordion-icon {
+  width: 0.78em;
+  height: 0.78em;
+  transform: rotate(-90deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.accordion.active {
+  border: 1px solid var(--section-light-text-color);
+  border-top: none;
+  border-radius: 10px;
+}
+
+.accordion.active .accordion-content {
+  max-height: 500px;
+}
+
+.accordion.active .accordion-icon {
+  transform: rotate(0deg);
+}
+
+/* End accordion styling */
+
+/* Start Skills styling */
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skills-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: var(--section-light-text-color);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  background: #f8f5f0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card i {
+  font-size: 2rem;
+  color: var(--section-dark-bg-color);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.skill-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--section-dark-bg-color);
+}
+
+.skill-card p {
+  font-size: 1rem;
+  color: var(--single-page-text-color);
+  line-height: 1.5;
+}
+/* End Skills styling */

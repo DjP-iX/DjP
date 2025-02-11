@@ -90,11 +90,11 @@ enableEmoji = true
        # url = "tel:+49 1111 555555"
        # icon = "fa fa-phone"
 
-    [[params.contacts]]
-        label = "email"
-        value = "danpizappi@gmail.com"
-        url = "mailto:danpizappi@gmail.com"
-        icon = "fa fa-envelope"
+    # [[params.contacts]]
+      #  label = "email"
+      #  value = ""
+      #  url = "mailto:"
+      #  icon = "fa fa-envelope"
 
     [[params.contacts]]
         label = "GitHub"
