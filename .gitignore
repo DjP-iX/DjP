@@ -21,3 +21,5 @@ Thumbs.db
 # Temporary files
 *.swp
 *.swo
+
+.hugo_build.lock
