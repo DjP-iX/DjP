@@ -3,11 +3,10 @@ title: "Documentation"
 weight: 5
 header_menu: true
 ---
-
-{{< accordion title="This is an accordion" >}}
-Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-{{< /accordion >}}
+ 
+I’m passionate about producing clear, concise, and effective documentation that communicates complex technical concepts with ease and precision.
 
 {{< skills >}}
+
+{{< button "Portfolio" "/professional-portfolio" >}}
+{{< button "Resume" "/resume" >}}
