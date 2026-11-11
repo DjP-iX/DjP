@@ -12,4 +12,7 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
+{{- if and (not (strings.HasPrefix $link "http")) (strings.HasPrefix $link "/") -}}
+  {{- $link = strings.TrimPrefix "/" $link | relURL -}}
+{{- end -}}
 <a href="{{ $link | safeURL }}" class="button" title="{{ .Get 0 }}"{{ if $isRemote }} target="_blank" rel="noopener"{{ end }}>{{ .Get 0 }}</a>

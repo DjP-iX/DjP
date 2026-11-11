@@ -13,6 +13,6 @@ The material on this website is for informational and demonstration purposes onl
 
 Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution-NonCommercial 4.0 International license.
 
-[Click here](/license) to view full license details.
+[Click here](../license/) to view full license details.
 
 For further information, see [creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/).
