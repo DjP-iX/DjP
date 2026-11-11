@@ -45,7 +45,10 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           PAGES_BASE_URL: ${{ steps.pages.outputs.base_url }}
-        run: hugo --gc --minify --baseURL "${PAGES_BASE_URL}/"
+        run: |
+          # Pages can report HTTP while a custom-domain certificate is provisioning.
+          PAGES_BASE_URL="${PAGES_BASE_URL/#http:/https:}"
+          hugo --gc --minify --baseURL "${PAGES_BASE_URL%/}/"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
