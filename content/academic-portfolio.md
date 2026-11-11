@@ -2,92 +2,97 @@
 title: "Academic Portfolio"
 ---
 
-My academic work includes publications in edited collections and peer-reviewed journals, conference presentations, and service to literary studies organizations.
+I taught first-year composition, workplace writing, and literature at the University of Tennessee, Knoxville, and first-year composition at SUNY New Paltz. My research examines how American fiction represents the persistence of the past and imagines different futures.
 
-## Education
+[Teaching](#teaching) · [Research and publications](#research-and-publications) · [Selected presentations](#selected-presentations) · [Invited talks](#invited-talks-and-readings) · [Service](#academic-service) · [Download my CV (PDF)](../resume/Daniel-Pizappi-CV.pdf)
 
-**PhD in English** — University of Tennessee, Knoxville
+## Teaching
 
-Dissertation research focused on Southern literature and regional modernism, with emphasis on the relationship between folk culture and literary form.
+I want my students to become better readers, writers, and thinkers, and to develop the habit of asking better questions. Learning to examine what we take for granted and put our own ideas into words helps us make sense of the world around us and participate more thoughtfully in our communities. I design assignments that give students a chance to use those skills on questions that matter to them and to see how what they practice in class can help them become the people they want to be.
 
-## Awards and Fellowships
+### Courses and teaching materials
 
-{{< accordion title="Academic Honors" >}}
-- **University of Tennessee Chancellor's Fellowship** — Merit-based funding supporting doctoral study and research
-- **Norman J. Sanders Dissertation Fellowship** — Competitive award supporting dissertation completion
-- **W.E.B. Du Bois Research Fellowship** — Support for research in African American literature and culture
-- **John C. Hodges Excellence in Scholarship Award** — Recognition for outstanding scholarly achievement in English studies
+{{< accordion title="ENG 295 · Writing in the Workplace" >}}
+In the grant project, groups investigate a problem connected to their intended professions. They write a letter of inquiry to a fictional funder, gather evidence and discuss it with me, then write a formal report. For the final presentation, classmates and I play the board deciding whether to fund the proposal. The format gives students a concrete reason to ask what their evidence supports and what a decision-maker still needs to know.
+
+- [Grant project assignment (PDF)](../portfolio/eng-295-grant-project.pdf)
+- [Fictional request for proposals (PDF)](../portfolio/eng-295-grant-rfp.pdf)
+- [Informative memo assignment (PDF)](../portfolio/eng-295-memo-assignment.pdf) and [model memo (PDF)](../portfolio/eng-295-model-memo.pdf)
+- [Course syllabus (PDF)](../portfolio/eng-295-syllabus.pdf)
 {{< /accordion >}}
 
-## Scholarly Publications
+{{< accordion title="ENG 101 · Composition 1" >}}
+For the multimodal assignment, students adapt an argument from an earlier academic essay for a public audience. They choose a form such as a website, video, or infographic and decide how to reshape their research for that medium.
 
-{{< accordion title="Essays in Edited Collections" >}}
-**"'A strange and monotonous tune': Folksong and Symphonic Form in Elizabeth Madox Roberts' *The Great Meadow*"** (2017)
-Published in *Keenly Aware of the Ceremonies of Place: Essays on Elizabeth Madox Roberts*, edited by H. R. Stoneback and Matthew Nickel (Des Hymnagistes Press). This essay examines Roberts' innovative use of folk music structures and themes as organizing principles in her Kentucky historical novel, arguing that her incorporation of vernacular song traditions represents a sophisticated modernist technique for rendering regional consciousness.
-
-**"'We cannot live in the houses of other men': A Critical Reappraisal of Skipwith Cannell"** (2014)
-Published in *Affirming the Gold Thread: Aldington, Hemingway, Pound & Imagism in Torcello and Venice*, edited by H. R. Stoneback and Matthew Nickel (Florida English). This essay recovers the work of an overlooked American modernist poet, situating Cannell within the Imagist movement and reassessing his contributions to early twentieth-century experimental poetry.
+- [Multimodal assignment (PDF)](../portfolio/eng-101-multimodal-assignment.pdf)
+- [Course syllabus (PDF)](../portfolio/eng-101-syllabus.pdf)
 {{< /accordion >}}
 
-{{< accordion title="Journal Articles" >}}
-**"Whose Side Are You On? — Folksong and Solidarity in Appalachian Mining Communities"** (Spring 2017)
-*Shawangunk Review*, Volume XXVIII
-Explores the role of traditional and protest songs in shaping collective identity and political consciousness among coal mining communities in Appalachia, with particular attention to how musical traditions facilitate labor organizing and cultural resistance.
+{{< accordion title="ENG 102 · Composition 2" >}}
+In a unit on foodways, students investigate food traditions in their families or communities. They conduct interviews, transcribe and code the responses, and write up their findings in an APA-formatted research report. I designed the assignment to show how systematic inquiry can deepen students’ understanding of communities they already know.
 
-**"*The Tempest*: Appropriation of Colonial Discourse and Sociopolitical Anxieties in the Caliban-Stefano-Trinculo Subplot"** (Spring 2015)
-*Shawangunk Review*, Volume XXVI
-Analyzes Shakespeare's deployment of comic elements in *The Tempest* to engage with and critique colonial ideologies, examining how the play's subplot illuminates early modern anxieties about power, servitude, and cultural encounter.
+In a separate archival research project, students curated digital exhibits around historical artifacts. I built *Cooking Up a Movement* to model how an exhibit can connect a single object to a larger history.
+
+- [Qualitative research assignment (PDF)](../portfolio/eng-102-qualitative-research.pdf)
+- [Cooking Up a Movement, model archival exhibit](https://sites.google.com/view/cooking-up-a-movement/)
+- [Course syllabus (PDF)](../portfolio/eng-102-syllabus.pdf)
 {{< /accordion >}}
 
-## Conference Presentations
+{{< accordion title="ENG 253 · Introduction to Fiction" >}}
+The close reading assignment asks students to develop an original interpretation by examining specific details in a work of fiction. It gives them practice making a claim from textual evidence before a later essay introduces literary theory.
 
-{{< accordion title="Selected Presentations (2013-2022)" >}}
-My conference presentations span multiple areas of literary study:
-
-**Southern Literature Studies**
-Presented research on regional writers and the relationship between place and literary form at the Society for the Study of Southern Literature conference (2022).
-
-**Pedagogy and Teaching**
-Contributed to conversations about pandemic-era pedagogy and adaptive teaching strategies at professional conferences (2021), addressing challenges and innovations in remote and hybrid learning environments.
-
-**African American Literature**
-Examined African American speculative fiction and its engagement with historical trauma and futurity at the American Literature Association conference (2019).
-
-**Regional Identity and Wilderness**
-Explored representations of wilderness and regional consciousness in American literature at regional studies conferences (2019).
-
-**American Drama and Theory**
-Presented theoretical approaches to American theatrical works, examining intersections of performance, text, and cultural context (2018).
-
-**Faulkner Studies**
-Contributed to scholarly conversations about William Faulkner's narrative techniques and regional modernism at the Faulkner and Yoknapatawpha Conference (2017).
-
-**Hemingway Scholarship**
-Presented research on Ernest Hemingway's European period and his relationships with other modernist writers at the Hemingway Society conference (2016).
+- [Close reading assignment (PDF)](../portfolio/eng-253-close-reading-assignment.pdf)
+- [Course syllabus (PDF)](../portfolio/eng-253-syllabus.pdf)
 {{< /accordion >}}
 
-## Invited Talks and Featured Appearances
+### Teaching appointments
 
-{{< accordion title="Speaking Engagements" >}}
-**Poetry Lecture, University of Tennessee** (2019)
-Delivered a craft lecture on poetic technique and creative process to graduate students in the Creative Writing program, followed by a reading from recent work.
+- **Postdoctoral Lecturer, University of Tennessee, Knoxville** (2022–2023). First-year composition and Writing in the Workplace.
+- **Graduate Teaching Associate, University of Tennessee, Knoxville** (2016–2022). First-year composition and Introduction to Fiction.
+- **Instructor of Record, SUNY New Paltz** (2014–2015). Composition I and II.
 
-**New Paltz Writers Reading Series** (2015)
-Featured reader at SUNY New Paltz's public reading series, presenting poetry and fiction to campus and community audiences.
+I also taught reading and study skills for the Institute of Reading Development and worked with writers through SUNY New Paltz’s Center for International Programs and Academic Tutoring Center.
 
-**SAMLA Fiction Writers Panel** (2013)
-Participated in a panel discussion on contemporary fiction writing at the South Atlantic Modern Language Association conference, engaging with both scholarly and creative approaches to narrative craft.
-{{< /accordion >}}
+## Research and Publications
 
-## Service and Leadership
+### Dissertation
 
-{{< accordion title="Elizabeth Madox Roberts Society" >}}
-**Past President and Current Board Member**
-The Elizabeth Madox Roberts Society is a nonprofit literary studies organization dedicated to promoting scholarship on the work of Kentucky novelist and poet Elizabeth Madox Roberts (1881-1941). As president, I led the organization's strategic initiatives, coordinated conference sessions, managed communications, and worked to increase the visibility of Roberts' contributions to American modernism. I continue to serve on the board, supporting the society's mission to foster critical engagement with Roberts' literary legacy and regional modernist traditions.
-{{< /accordion >}}
+**[*Reading Temporality: The Present, Past, and Future of Slavery and Abolition in US Fiction Post-1945*](https://trace.tennessee.edu/entities/publication/7bbfdd0d-e231-4e8f-83c6-fa10db003c67)**. PhD dissertation, University of Tennessee, Knoxville, 2022.
 
-## Teaching Experience
+I examine how contemporary American fiction represents slavery’s afterlives and how those histories shape what futures characters and readers can imagine. I use the concept of pantemporality to read how the past and the future are present at the same time in works by Toni Morrison, Octavia Butler, Jesmyn Ward, and others.
 
-My teaching experience spans composition, literature, and creative writing at the undergraduate level. I have designed curricula that emphasize critical thinking, effective communication, and engagement with diverse literary traditions. As a postdoctoral lecturer at the University of Tennessee, I taught multiple sections of first-year composition and upper-level courses in writing and literature.
+### Selected publications
 
-For detailed syllabi and course materials, see the [Professional Portfolio](/professional-portfolio#instructional-design) instructional design section.
+- **“‘A strange and monotonous tune’: Folksong and Symphonic Form in Elizabeth Madox Roberts’ *The Great Meadow*.”** In *Keenly Aware of the Ceremonies of Place: Essays on Elizabeth Madox Roberts* (Des Hymnagistes Press, 2017). I examine how Roberts uses folk music to shape the form of her historical novel.
+- **“Whose Side Are You On? — Folksong and Solidarity in Appalachian Mining Communities.”** *Shawangunk Review* 28 (2017). The essay considers how songs helped Appalachian miners build solidarity.
+- **“*The Tempest*: Appropriation of Colonial Discourse and Sociopolitical Anxieties in the Caliban-Stefano-Trinculo Subplot.”** *Shawangunk Review* 26 (2015). The essay reads the comic subplot in relation to early modern anxieties about colonial power and servitude.
+- **“‘We cannot live in the houses of other men’: A Critical Reappraisal of Skipwith Cannell.”** In *Affirming the Gold Thread: Aldington, Hemingway, Pound & Imagism in Torcello and Venice* (Florida English, 2014). I reconsider Cannell’s place in Imagism.
+
+## Selected Presentations
+
+- **“The Tradwife of It All: Elizabeth Madox Roberts, *Yesteryear*, and the Performance of Traditional Marriage.”** Elizabeth Madox Roberts Society Conference, October 2026. I read Roberts alongside Caro Claire Burke to ask what stories about traditional marriage leave out about the material conditions of domestic life.
+- **“Rethinking Roberts for the 21st Century.”** Roundtable, American Literature Association Annual Conference, May 2026.
+- **“Searching for the Disaster Utopia: Elizabeth Madox Roberts’ *Flood* and Silas House’s *Southernmost*.”** Elizabeth Madox Roberts Society Conference, October 2024.
+- **“Steel Guitars and Six-Mabone Cars: Navigating Speculative Space and Time in Cynthia Shearer’s *The Celestial Jukebox*.”** Society for the Study of Southern Literature, June 2022.
+- **“Teaching the Controversy: Reframing Anti-CRT Rhetoric as Anti-Racist Praxis.”** Presented as part of the “No Neutral Principles” roundtable on critical race theory and pedagogy at the South Atlantic Modern Language Association conference, November 2021.
+- **“Teaching *The Time of Man* in the Time of Pandemic.”** South Atlantic Modern Language Association conference, November 2021.
+- **“Relief, Remembrance, Ease: Speculative Space and Time in *Sing, Unburied, Sing*.”** South Atlantic Modern Language Association conference, November 2019.
+- **“‘They endured’: Pantemporal Space in *The Sound and the Fury*.”** The Deep South in the Global South Conference, University of Louisiana at Lafayette, April 2017.
+
+## Invited Talks and Readings
+
+- **“Poetry, Songwriting, and the Space Between.”** Guest lecture on the relationship between poetry and songwriting for Erin Elizabeth Smith’s undergraduate Introduction to Poetry course, University of Tennessee, Knoxville, September 2019.
+- **“Next Year’s Words.”** Featured reader, Wallkill Valley Writers, New Paltz, February 2015.
+- **SAMLA Fiction Writers Panel.** Panelist, South Atlantic Modern Language Association conference, November 2013.
+
+## Academic Service
+
+- **[Elizabeth Madox Roberts Society](https://www.emrsociety.com/).** Board member (2023–present), president (2021–2023), and vice president (2019–2021). I have also co-chaired academic programming for the society’s own conference and a joint conference with the International Richard Aldington Society and the Imagism Society.
+- **University of Tennessee, Knoxville.** Co-chair of the Nexus Interdisciplinary Conference (2020) and managing editor of [*Grist*](../creative-writing/#editorial-work) (2017–2020).
+- **SUNY New Paltz.** Served on the Writing and Composition Pedagogical Review Committee, Common Summer Reading Committee, and Composition I Portfolio Review Committee.
+
+## Education and Honors
+
+I earned my PhD in English at the University of Tennessee, Knoxville (2022), and my MA in English (2015) and BA in English and History (2012) at SUNY New Paltz. At UT, I received the Chancellor’s Fellowship, the Norman J. Sanders Dissertation Fellowship, the W.E.B. Du Bois Fellowship, and the John C. Hodges Excellence in Scholarship Award.
+
+[Download my CV (PDF)](../resume/Daniel-Pizappi-CV.pdf)

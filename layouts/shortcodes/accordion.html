@@ -9,7 +9,7 @@
 
 
 <div class="accordion {{ $class }}">
-  <button class="accordion-header {{ $headerClass }}" data-accordion>
+  <button class="accordion-header {{ $headerClass }}" type="button" aria-expanded="false" data-accordion>
     {{ $title | markdownify }}
     <svg
       class="accordion-icon"
@@ -23,6 +23,6 @@
     </svg>
   </button>
   <div class="accordion-content {{ $bodyClass }}">
-    <p>{{ .Inner | markdownify }}</p>
+    {{ .Page.RenderString (dict "display" "block") .Inner }}
   </div>
 </div>

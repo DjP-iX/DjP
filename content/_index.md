@@ -10,7 +10,7 @@ header_logo: "images/DjP-dark-green.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "Dan Pizappi"
-header_subheadline: "<b>Writer</b> & <b>Documentation</b> Engineer"
+header_subheadline: "<b>Writer</b>, <b>Scholar</b> & <b>Documentation Engineer</b>"
 
 # Add a 'Go back to top' item to the navigation menu
 # Title: name of navigation menu entry

@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 theme = "hugo-scroll"
 
 # The browser tab name
-title = "Dan Pizappi - Writer and Documentation Engineer"
+title = "Dan Pizappi - Writer, Scholar, and Documentation Engineer"
 
 # In order to add version information in the page's footer set to true.
 # enableGitInfo = true
@@ -44,10 +44,10 @@ enableEmoji = true
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Dan Pizappi - Writer & Documentation Engineer"
+    title = "Dan Pizappi - Writer, Scholar, and Documentation Engineer"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Writer & Documentation Engineer"
+    description = "Writer, Scholar, and Documentation Engineer"
 
     # Show a menu of languages available
     language_menu = false
@@ -101,12 +101,6 @@ enableEmoji = true
         value = "github.com/DjP-iX"
         url = "https://github.com/DjP-iX"
         icon = "fa-brands fa-github"
-
-    [[params.contacts]]
-        label = "Bluesky"
-        value = "enskyment.bsky.social"
-        url = "https://bsky.app/profile/enskyment.bsky.social"
-        icon = "fa-brands fa-bluesky"
 
     [[params.contacts]]
         label = "LinkedIn"

@@ -4,15 +4,10 @@ weight: 3
 header_menu: true
 ---
 
-![Dan Pizappi](/images/headshot-bw.jpg)
+<img class="homepage-headshot" src="images/headshot-green.png" alt="Dan Pizappi" width="160" height="160" loading="lazy">
 
-I’m Dan Pizappi, a Technical Documentation Engineer at iXsystems, the open storage company behind TrueNAS.
-My responsibilities include both hardware and software documentation, front-end web development, and managing a docs-as-code toolchain using Git, static site generation, and languages such as HTML, CSS, JavaScript, and YAML.
+I’m a technical documentation engineer at TrueNAS. I work with engineers and testers to understand how the software behaves, then write guides and release notes that help readers decide what to do. I also design documentation sites and maintain the tools we use to build and publish them.
 
-I hold a PhD in English from the University of Tennessee, Knoxville, and have extensive experience in research, analysis, writing, and instructional design.
-Over the years, I’ve contributed to various academic and literary projects, including planning more than a dozen conferences, serving as Managing Editor for *Grist: A Journal of the Literary Arts*, and teaching as a Lecturer in the University of Tennessee English Department.
-I’m also a past president of the Elizabeth Madox Roberts Society, a small literary-studies NPO, where I continue to serve on the board.
+I earned my PhD in English at the University of Tennessee, Knoxville, where I taught first-year composition, workplace writing, and literature. At UT, I studied how writers including Toni Morrison, Octavia Butler, and Jesmyn Ward represent history and imagine the future. I remain active in the Elizabeth Madox Roberts Society as a past president and current board member, and I’m working on a graphic novel adaptation of Roberts’s *The Time of Man*. I also served as managing editor of *Grist: A Journal of the Literary Arts*.
 
-In addition to my technical and academic work, I practice creative writing, working in both poetry and fiction.
-My work has appeared in publications including *Still: the Journal*, *Anti-Heroin Chic*, *The Mantle*, *Nixes Mate Review*, and *Dark Marrow*.
-In my free time, I enjoy reading, making music, cooking, and trying my hand at gardening.
+Outside work, I like making music, cooking, and trying my hand at gardening.

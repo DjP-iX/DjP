@@ -6,7 +6,8 @@
     const accordions = document.querySelectorAll("[data-accordion]");
     accordions.forEach((header) => {
       header.addEventListener("click", () => {
-        header.parentElement.classList.toggle("active");
+        const expanded = header.parentElement.classList.toggle("active");
+        header.setAttribute("aria-expanded", String(expanded));
       });
     });
   });

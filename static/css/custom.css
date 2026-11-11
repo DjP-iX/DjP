@@ -1,4 +1,8 @@
 /* General styling */
+#blog-logo {
+  max-height: 130px;
+}
+
 :root {
     /* === Cover / Landing area === */
     --cover-text-color: #58812a;
@@ -48,10 +52,6 @@
 }
 
 /* Begin styling for menu buttons and nav menu */
-a.btn.site-menu {
-  background-color: var(--btn-site-menu) !important;
-  color: var(--section-light-bg-color) !important;
-}
 #header-arrow i {
   color: var(--btn-site-menu) !important;
 }
@@ -67,36 +67,35 @@ a.btn.site-menu {
 /* End syling for menu buttons and nav menu */
 
 /* Begin quote styling */
-/* Quote container */
 .quote-container {
-  display: flex;
-  align-items: center;
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 10px 20px;
-  background: rgba(255, 255, 255, 0.05); /* Soft overlay effect */
-  border-radius: 10px;
+  display: block;
+  width: calc(100% - 3rem);
+  max-width: 760px;
+  margin: 2.4rem auto;
+  padding: clamp(1.6rem, 3vw, 2.2rem);
+  background: #cbd8b8;
+  border-left: 4px solid var(--highlight);
+  border-radius: 0 8px 8px 0;
+  color: #34412d;
 }
 
-/* Quote text */
-.quote {
-  font-style: italic;
-  font-size: 1.5rem;
-  color: #B5C99A;
-  padding-left: 1em;
-  letter-spacing: 0.5px;
+.quote-container .quote {
+  font-style: normal;
+  font-size: 0.9em;
+  line-height: 1.6;
+  color: #34412d;
+  padding: 0;
+  letter-spacing: normal;
   margin: 0;
 }
 
-/* Quote attribution */
-.quote-attribution {
+.quote-container .quote-attribution {
   display: block;
   text-align: right;
-  font-size: 1.4rem;
+  font-size: 0.85em;
   font-weight: bold;
-  color: #B5C99A;
-  opacity: 0.9;
-  margin-top: 10px;
+  color: #436421;
+  margin-top: 1.4rem;
 }
 /* End quote styling */
 
@@ -119,17 +118,33 @@ footer a:hover {
 }
 /* End footer styling */
 
+.post-content img.homepage-headshot {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: 53% center;
+  border-radius: 50%;
+  margin: 1.5rem 0 2rem;
+}
+
 /* Start accordion styling */
 .accordion {
   border-radius: 10px;
   border-color: var(--section-light-text-color);
 }
 
+.accordion:not(.accordion + .accordion) {
+  margin-block-start: 1.8rem;
+}
+
+.accordion:not(:has(+ .accordion)) {
+  margin-block-end: 1.8rem;
+}
+
 .accordion-header {
   display: flex;
   justify-content: space-between;
   background-color: var(--section-dark-bg-color);
-  opacity: 90%;
   color: var(--section-light-bg-color);
   align-items: center;
   padding: 1rem;
@@ -154,11 +169,10 @@ footer a:hover {
 }
 
 .accordion-content {
-  max-height: 0;
-  overflow: hidden;
-  font-size: 1.2rem;
-  padding: 0 1rem;
-  transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+  display: none;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 1.5rem;
 }
 
 .accordion.active {
@@ -168,7 +182,7 @@ footer a:hover {
 }
 
 .accordion.active .accordion-content {
-  max-height: 500px;
+  display: block;
 }
 
 .accordion.active .accordion-icon {
@@ -281,10 +295,6 @@ footer a:hover {
 }
 
 /* Begin styling for menu buttons and nav menu */
-a.btn.site-menu {
-background-color: var(--btn-site-menu) !important;
-color: var(--section-light-bg-color) !important;
-}
 #header-arrow i {
 color: var(--btn-site-menu) !important;
 }
@@ -299,39 +309,7 @@ color: var(--highlight) !important;
 }
 /* End syling for menu buttons and nav menu */
 
-/* Begin quote styling */
-/* Quote container */
-.quote-container {
-display: flex;
-align-items: center;
-max-width: 800px;
-margin: 20px auto;
-padding: 10px 20px;
-background: rgba(255, 255, 255, 0.05); /* Soft overlay effect */
-border-radius: 10px;
-}
 
-/* Quote text */
-.quote {
-font-style: italic;
-font-size: 1.5rem;
-color: #B5C99A;
-padding-left: 1em;
-letter-spacing: 0.5px;
-margin: 0;
-}
-
-/* Quote attribution */
-.quote-attribution {
-display: block;
-text-align: right;
-font-size: 1.4rem;
-font-weight: bold;
-color: #B5C99A;
-opacity: 0.9;
-margin-top: 10px;
-}
-/* End quote styling */
 
 /* Start footer styling */
 .site-footer {
@@ -362,7 +340,6 @@ border-color: var(--section-light-text-color);
 display: flex;
 justify-content: space-between;
 background-color: var(--section-dark-bg-color);
-opacity: 90%;
 color: var(--section-light-bg-color);
 align-items: center;
 padding: 1rem;
@@ -387,11 +364,10 @@ transition: transform 0.2s ease-in-out;
 }
 
 .accordion-content {
-max-height: 0;
-overflow: hidden;
-font-size: 1.2rem;
-padding: 0 1rem;
-transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out;
+display: none;
+font-size: inherit;
+line-height: inherit;
+padding: 1.5rem;
 }
 
 .accordion.active {
@@ -401,7 +377,7 @@ border-radius: 10px;
 }
 
 .accordion.active .accordion-content {
-max-height: 500px;
+display: block;
 }
 
 .accordion.active .accordion-icon {
@@ -465,9 +441,13 @@ line-height: 1.5;
 
 /* Start Button Styling */
 
+:root {
+  --button-hover-background: #584574;
+}
+
 .button, button {
   background: var(--section-dark-bg-color);
-  color: var(--section-light-bg-color);#3a4145
+  color: var(--section-light-bg-color);
   text-decoration: none !important;
   padding: 1em 2em;
   font-weight: bold;
@@ -477,16 +457,12 @@ line-height: 1.5;
   border: 1px solid;
   cursor: pointer;
   letter-spacing: 0.02em;
-  transition: transform 0.075s ease-in-out;
   white-space: nowrap;
 }
 
-@media (min-width: 600px) {
-  .button:hover, button:hover {
-      transform: scale(1.035);
-      background: var(--section-dark-bg-color);
-      color: var(--section-light-bg-color);
-  }
+#site-head a.btn.site-menu {
+  background-color: var(--btn-site-menu);
+  color: var(--section-light-bg-color);
 }
 
 .button.secondary {
@@ -546,4 +522,39 @@ ul.buttons.social .button {
   background: var(--section-dark-bg-color);
 }
 
+.button,
+button,
+#site-head a.btn.site-menu {
+  transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+:is(.button, .button.secondary, button):is(:hover, :focus-visible),
+#site-head a.btn.site-menu:is(:hover, :focus-visible) {
+  background-color: var(--button-hover-background);
+  color: var(--section-light-bg-color);
+}
+
+button[data-accordion] {
+  appearance: none;
+}
+
+button[data-accordion]:hover,
+button[data-accordion]:focus-visible {
+  background: var(--button-hover-background) !important;
+}
+
 /* End Button Styling */
+
+.accordion-content > :first-child {
+  margin-top: 0;
+}
+
+.accordion-content > :last-child {
+  margin-bottom: 0;
+}
+
+button.accordion-header {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  white-space: normal;
+}

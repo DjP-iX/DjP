@@ -2,62 +2,72 @@
 title: "Portfolio"
 ---
 
-This portfolio showcases my work across professional and technical writing, web content development and design, and instructional design. Each project demonstrates practical application of communication strategies, design principles, and pedagogical approaches to real-world contexts.
+I write and design documentation at TrueNAS and have taught composition, workplace writing, and literature at the University of Tennessee, Knoxville. These projects show how I approach writing for readers who need to learn something or make a decision.
 
 ## Professional and Technical Writing
 
-{{< accordion title="Standard Operating Procedure (SOP)" >}}
-Developed a comprehensive SOP document for a manufacturing process, utilizing LaTeX for professional typesetting, Excel for data organization, and Tableau Public for data visualization. The document establishes standardized procedures for quality control and workflow optimization, incorporating visual aids and clear step-by-step instructions to ensure consistency across operations.
+{{< accordion title="TrueNAS 25.10 Release Notes" >}}
+I write release notes for each TrueNAS software release. I wrote the full TrueNAS 25.10 (Goldeye) version notes, from the initial release through its maintenance updates. The notes explain what changed and flag known issues and upgrade considerations for administrators planning their next update.
+
+[Read the TrueNAS 25.10 release notes](https://www.truenas.com/docs/scale/25.10/gettingstarted/versionnotes/)
 {{< /accordion >}}
 
-{{< accordion title="Request for Proposals (RFP)" >}}
-Collaborated on a formal RFP document soliciting vendor bids for a technology implementation project. Used Adobe Express for visual design elements and LaTeX for document structure and formatting. The proposal included detailed technical specifications, evaluation criteria, timeline requirements, and budget parameters, demonstrating expertise in formal business documentation and collaborative project management.
+{{< accordion title="TrueNAS Documentation Articles" >}}
+I wrote the original versions of the articles below. The links point to the live documentation, where the team continues to maintain them.
+
+In *App Storage*, I explain how TrueNAS manages storage for apps and when users might choose to manage that storage themselves. The article helps readers choose a storage option before configuring an app.
+
+[Read App Storage](https://apps.truenas.com/getting-started/app-storage/)
+
+- [Creating and Managing Containers](https://www.truenas.com/docs/scale/containers/managingcontainers/) covers setting up containers and managing them after deployment.
+- [Installing Custom Apps](https://apps.truenas.com/managing-apps/installing-custom-apps/) walks through installation in the TrueNAS interface or with a Docker Compose file.
+- [Managing TrueNAS Systems Inventory](https://connect.truenas.com/docs/tutorial/inventory/) shows how to review and export hardware information across a fleet.
 {{< /accordion >}}
 
-{{< accordion title="Informative Memo" >}}
-Crafted an internal business memorandum communicating policy changes and procedural updates to staff. The document exemplifies clear organizational communication, appropriate tone for internal audiences, and effective use of formatting to highlight key information and action items.
+{{< accordion title="TrueNAS Feature Deprecations" >}}
+I rebuilt the feature deprecations guide so administrators can find out what an upgrade will affect and what they need to do before installing it. I organized the page around the consequences of each removal and the steps readers can take to prepare. I also made the content reusable in Hugo so the guide and the release notes could draw from the same source.
+
+[Read the TrueNAS 27 Feature Deprecations guide](https://www.truenas.com/docs/scale/27/gettingstarted/deprecations/)
 {{< /accordion >}}
 
-{{< accordion title="Business Letter - Delivering Bad News" >}}
-Composed a formal business letter addressing a sensitive situation requiring tactful delivery of unfavorable information. The letter demonstrates strategic use of the indirect approach, maintaining professional relationships while clearly communicating necessary decisions and next steps.
+{{< accordion title="Standard Operating Procedure for Public-Facing Documentation" >}}
+This earlier writing sample sets out a process for adapting technical material for the public. It covers how to review a source document, check the resulting publication, and decide when to update it.
+
+[Read the standard operating procedure (PDF)](../portfolio/technical-documentation-sop.pdf)
 {{< /accordion >}}
 
 ## Web Content and Design
 
-{{< accordion title="Portfolio Website (This Site)" >}}
-Designed and developed this Hugo-based portfolio website, migrating content from a legacy Weebly platform to a modern static site generator. The project involved custom CSS styling, responsive design implementation, Hugo shortcode development for interactive elements, and content architecture planning. Technologies used include Hugo Extended, GeekDocs theme customization, HTML/CSS, and Git for version control.
+{{< accordion title="TrueNAS Connect" >}}
+I was the lead web designer for the public TrueNAS Connect site. I designed the landing page and documentation navigation so readers can understand what the service does and find the information they need to get started.
+
+![TrueNAS Connect homepage with the product introduction and Essentials documentation cards](../images/portfolio/truenas-connect-home.webp)
+
+[Visit TrueNAS Connect](https://connect.truenas.com/)
 {{< /accordion >}}
 
 {{< accordion title="Elizabeth Madox Roberts Society Website Redesign" >}}
-Led a comprehensive redesign of the Elizabeth Madox Roberts Society website, modernizing the online presence of this literary studies nonprofit organization. The project focused on improving navigation, updating visual design, enhancing accessibility, and streamlining content management. The redesign increased user engagement and simplified administrative workflows for the organization's volunteer leadership.
+I redesigned the Elizabeth Madox Roberts Society’s website around what visitors come to find. The main navigation gives conference information, the society newsletter, and research resources their own places. The homepage introduces Roberts and directs readers to the society’s conference and resources for scholars.
+
+![Elizabeth Madox Roberts Society homepage with a portrait of Roberts and links to conference information, resources, and the newsletter](../images/portfolio/emrs-redesign-home.webp)
+
+[Visit the Elizabeth Madox Roberts Society](https://www.emrsociety.com/)
 {{< /accordion >}}
 
 {{< accordion title="Cooking Up a Movement" >}}
-Created an educational digital exhibit using Google Sites to document the history and cultural significance of community organizing through food. The project combines historical research, visual storytelling, and interactive web design to create an engaging learning experience. Features include multimedia integration, responsive layouts, and accessible navigation designed for diverse audiences.
+I built this Google Sites exhibit as a model for an ENG 102 archival research project. It starts with a Knoxville cookbook and traces its connections to local women’s organizing. The exhibit shows students how to use a historical object to ask a larger question and bring readers along as they find an answer.
+
+![Homepage of the Cooking Up a Movement digital exhibit](../images/portfolio/cooking-up-a-movement.webp)
+
+[Visit Cooking Up a Movement](https://sites.google.com/view/cooking-up-a-movement/)
 {{< /accordion >}}
 
-{{< accordion title="Graphic Design Portfolio" >}}
-A collection of visual design work including event posters, book covers, album artwork, and data visualizations. Projects demonstrate proficiency in Adobe Creative Suite, typography, color theory, and visual communication principles. Work spans both print and digital media, with emphasis on creating visually compelling designs that effectively communicate their intended messages.
-{{< /accordion >}}
+{{< accordion title="This Portfolio" >}}
+I moved this portfolio from Weebly to Hugo so I could maintain the site in Markdown and keep the source under version control. I adapted the Hugo Scroll theme and built the expandable sections used to organize this page.
 
-{{< accordion title="NEXUS Conference Logo Redesign" >}}
-Collaborated with university design staff as NEXUS Conference Co-Director to develop a new visual identity for the annual graduate student conference. The redesign process involved stakeholder consultation, iterative design development, and coordination with print and digital media requirements. The resulting logo modernized the conference brand while maintaining recognition and institutional alignment.
+[View the homepage](../) · [Browse the source on GitHub](https://github.com/DjP-iX/DjP)
 {{< /accordion >}}
 
 ## Instructional Design
 
-{{< accordion title="ENG 295 - Writing in the Workplace" >}}
-Designed and taught this upper-level undergraduate course focusing on professional communication genres and workplace writing strategies. Course materials include a comprehensive syllabus, scaffolded assignments covering memos, reports, proposals, and presentations, and assessment rubrics emphasizing real-world application. The curriculum integrates rhetorical theory with practical skill development, preparing students for diverse professional contexts.
-{{< /accordion >}}
-
-{{< accordion title="ENG 101 - Composition 1" >}}
-Developed curriculum for first-year composition emphasizing critical reading, writing processes, and rhetorical awareness. Course materials feature a multimodal composition assignment that allows students to explore communication across different media and modes. The syllabus scaffolds student development from personal narrative through analytical writing, with emphasis on revision and peer collaboration.
-{{< /accordion >}}
-
-{{< accordion title="ENG 102 - Composition 2" >}}
-Created an advanced composition course centered on research writing and academic argumentation. The curriculum includes a qualitative research assignment guiding students through literature review, primary research methods, data analysis, and formal research paper composition. Materials emphasize ethical research practices, source evaluation, and synthesis of multiple perspectives.
-{{< /accordion >}}
-
-{{< accordion title="ENG 253 - Introduction to Fiction" >}}
-Designed course materials for this literature survey course introducing students to short fiction and the novel. Assignments include close reading exercises, analytical essays, and discussion leadership activities. The syllabus integrates diverse voices and periods, with pedagogical emphasis on developing interpretive skills, understanding narrative techniques, and articulating literary analysis.
-{{< /accordion >}}
+[View my teaching portfolio](../academic-portfolio/#teaching) for course materials and examples from first-year composition, workplace writing, and Introduction to Fiction.

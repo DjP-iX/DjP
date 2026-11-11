@@ -8,5 +8,5 @@ I’m passionate about producing clear, concise, and effective documentation tha
 
 {{< skills >}}
 
-{{< button "Portfolio" "/professional-portfolio" >}}
+{{< button "Professional Portfolio" "/professional-portfolio" >}}
 {{< button "Resume" "/resume" >}}
