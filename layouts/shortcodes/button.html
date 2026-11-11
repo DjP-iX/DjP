@@ -1,4 +1,5 @@
 {{- $link := .Get 1 -}}
+{{- $resolvedPage := false -}}
 {{- $isRemote := (or (strings.HasPrefix $link "http") (in (lower $link) ".pdf")) -}}
 {{- if not $isRemote -}}
   {{- $url := urls.Parse $link -}}
@@ -9,10 +10,11 @@
     {{- end -}}
     {{- with .Page.GetPage $url.Path -}}
       {{- $link = printf "%s%s" .RelPermalink $fragment -}}
+      {{- $resolvedPage = true -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- if and (not (strings.HasPrefix $link "http")) (strings.HasPrefix $link "/") -}}
+{{- if and (not $resolvedPage) (not (strings.HasPrefix $link "http")) (strings.HasPrefix $link "/") -}}
   {{- $link = strings.TrimPrefix "/" $link | relURL -}}
 {{- end -}}
 <a href="{{ $link | safeURL }}" class="button" title="{{ .Get 0 }}"{{ if $isRemote }} target="_blank" rel="noopener"{{ end }}>{{ .Get 0 }}</a>
