@@ -15,13 +15,10 @@ I write release notes for each TrueNAS software release. I wrote the full TrueNA
 {{< accordion title="TrueNAS Documentation Articles" >}}
 I wrote the original versions of the articles below. The links point to the live documentation, where the team continues to maintain them.
 
-In *App Storage*, I explain how TrueNAS manages storage for apps and when users might choose to manage that storage themselves. The article helps readers choose a storage option before configuring an app.
-
-[Read App Storage](https://apps.truenas.com/getting-started/app-storage/)
-
-- [Creating and Managing Containers](https://www.truenas.com/docs/scale/containers/managingcontainers/) covers setting up containers and managing them after deployment.
-- [Installing Custom Apps](https://apps.truenas.com/managing-apps/installing-custom-apps/) walks through installation in the TrueNAS interface or with a Docker Compose file.
-- [Managing TrueNAS Systems Inventory](https://connect.truenas.com/docs/tutorial/inventory/) shows how to review and export hardware information across a fleet.
+- [App Storage](https://apps.truenas.com/getting-started/app-storage/) explains how TrueNAS manages storage for apps and when users might choose to manage that storage themselves. The article helps users understand implementation details and configuration options that might otherwise be unclear as presented in the TrueNAS user interface.
+- [Creating and Managing Containers](https://www.truenas.com/docs/scale/containers/managingcontainers/) covers setting up LXC containers and managing them after deployment.
+- [Installing Custom Apps](https://apps.truenas.com/managing-apps/installing-custom-apps/) walks through installation of custom Docker applications via YAML in the TrueNAS interface or with a Docker Compose file.
+- [Managing TrueNAS Systems Inventory](https://connect.truenas.com/docs/tutorial/inventory/) shows how to review and export hardware information across a fleet in TrueNAS Connect.
 {{< /accordion >}}
 
 {{< accordion title="TrueNAS Feature Deprecations" >}}
