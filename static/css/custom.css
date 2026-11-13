@@ -248,7 +248,7 @@ footer a:hover {
 /* General styling */
 :root {
   /* === Cover / Landing area === */
-  --cover-text-color: #58812a;
+  --cover-text-color: black;
   --btn-site-menu: #745E96 !important;
   /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
   --highlight: #58812a;
